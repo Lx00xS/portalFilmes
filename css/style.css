@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+body{
+    font-family: 'Nuosu SIL', serif;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #781818;
+
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    max-width: 100px;
+    margin-bottom: 15px;
+
+}
+
+.cabecalho__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container__input{
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+/*Principal*/
+.principal__titulo{
+    text-align: center;
+    font-size: 55px;
+}
+
+.card{
+    margin: 20px 15px;
+    width: 18rem;
+}
+
+.card-title{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.card-text{
+    margin: 15px 0px;
+}
+
+.msg_erro{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin:20px 0px;
+}
+
+/*Rodapé*/
+.rodape{
+    background-color: #781818;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.container__copyright{
+    margin-bottom: 25px;
+}
+
+/*Responsivo*/
+@media(max-width: 576px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 25px;
+    }
+
+    #principal__filmes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Filmes | Home</title>
+    <link rel="icon" href="img/projetor-de-cinema.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/projetor-de-cinema.png" alt="Logo do site" class="logo">
+        <div class="cabecalho__container">
+            <input type="search" autocomplete="off" placeholder="Pesquisa" id="container__input">
+            <button id="container__botao" class="btn btn-outline-dark">Pesquisar</button>
+        </div>
+    </header>
+
+    <main class="principal container">
+        <h2 class="principal__titulo">Filmes no Cinema</h2>
+
+        <div class="row" id="principal__filmes">
+           
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <img src="img/projetor-de-cinema.png" alt="Logo do site" class="logo">
+            <p class="container__copyright">&copy 2022 - Desenvolvimento de Interfaces Web</p>
+        </div>  
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pesquisa.js"></script>
+</body>
+</html>

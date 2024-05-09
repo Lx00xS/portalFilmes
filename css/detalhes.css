@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+body{
+    font-family: 'Nuosu SIL', serif;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #781818;
+
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    max-width: 100px;
+    margin-bottom: 15px;
+
+}
+/*Principal*/
+.principal__titulo{
+    font-size: 55px;
+}
+
+.container__imagem{
+    margin: 25px 0px;
+}
+
+.poster{
+    max-width: 250px;
+}
+
+.filme__resumo{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.filmes__txt{
+    font-size: 25px;
+}
+
+.filme__info{
+    font-weight: bold;
+}
+
+/*Rodapé*/
+.rodape{
+    background-color: #781818;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.container__copyright{
+    margin-bottom: 25px;
+}
+
+/*Responsivo*/
+@media(max-width: 576px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 25px;
+    }
+
+    #principal__filmes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
